@@ -13,7 +13,7 @@ export default function Movie(props) {
   const id = movieID; // only works with a num
     console.log(id);
     axios
-      .get(`http://localhost:5000/api/movies/${id}`) // Study this endpoint with Postman
+      .get(`https://responsive-design-backend.onrender.com/api/movies/${id}`) // Study this endpoint with Postman
       .then(response => {
         // Study this response with a breakpoint or log statements
         // and set the response data as the 'movie' slice of state

@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+    "node": ">=20.17.0",
+    "npm": "~10.8.2"
+  },
   "scripts": {
     "start": "node server.js"
   },
@@ -15,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/LambdaSchool/SPA-Routing-React/issues"
   },
-  "homepage": "hhttps://github.com/LambdaSchool/SPA-Routing-React#readme",
+  "homepage": "https://github.com/LambdaSchool/SPA-Routing-React#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
